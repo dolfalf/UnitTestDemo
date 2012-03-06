@@ -31,41 +31,16 @@
 		C42A064E125EB7E4008A004E /* UserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A064D125EB7E4008A004E /* UserListViewController.m */; };
 		C42A0651125EB7F8008A004E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A0650125EB7F8008A004E /* User.m */; };
 		C42A0654125EB7FE008A004E /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A0653125EB7FE008A004E /* Tweet.m */; };
-		C42A076C125EBE1D008A004E /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A0763125EBE1D008A004E /* NSObject+SBJSON.m */; };
-		C42A076D125EBE1D008A004E /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A0765125EBE1D008A004E /* NSString+SBJSON.m */; };
-		C42A076E125EBE1D008A004E /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A0767125EBE1D008A004E /* SBJsonBase.m */; };
-		C42A076F125EBE1D008A004E /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A0769125EBE1D008A004E /* SBJsonParser.m */; };
-		C42A0770125EBE1D008A004E /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A076B125EBE1D008A004E /* SBJsonWriter.m */; };
-		C42A07B8125EBED5008A004E /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A07A6125EBED5008A004E /* ASIAuthenticationDialog.m */; };
-		C42A07B9125EBED5008A004E /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A07A9125EBED5008A004E /* ASIDownloadCache.m */; };
-		C42A07BA125EBED5008A004E /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A07AB125EBED5008A004E /* ASIFormDataRequest.m */; };
-		C42A07BB125EBED5008A004E /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A07AD125EBED5008A004E /* ASIHTTPRequest.m */; };
-		C42A07BC125EBED5008A004E /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A07B1125EBED5008A004E /* ASIInputStream.m */; };
-		C42A07BD125EBED5008A004E /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A07B3125EBED5008A004E /* ASINetworkQueue.m */; };
-		C42A07BE125EBED5008A004E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A07B7125EBED5008A004E /* Reachability.m */; };
 		C42A07C1125EBEFF008A004E /* TwitterService.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A07C0125EBEFF008A004E /* TwitterService.m */; };
 		C42A0806125EC210008A004E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42A0805125EC210008A004E /* CFNetwork.framework */; };
 		C42A0808125EC210008A004E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42A0807125EC210008A004E /* MobileCoreServices.framework */; };
 		C42A080A125EC210008A004E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42A0809125EC210008A004E /* SystemConfiguration.framework */; };
-		C42A080C125EC210008A004E /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C42A080B125EC210008A004E /* libz.1.2.3.dylib */; };
 		C45A37AA12601A9C00E584C2 /* Users.plist in Resources */ = {isa = PBXBuildFile; fileRef = C45A37A912601A9C00E584C2 /* Users.plist */; };
 		C49D531F12612A4600851379 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C206551261226700765D4A /* OCMock.framework */; };
 		C4C1BB7A126EC75C0056C655 /* UserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C1BB79126EC75C0056C655 /* UserTest.m */; };
 		C4C2043312610C9200765D4A /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C2043212610C9200765D4A /* NSDate+Additions.m */; };
 		C4C2050A1261214900765D4A /* Users.plist in Resources */ = {isa = PBXBuildFile; fileRef = C45A37A912601A9C00E584C2 /* Users.plist */; };
-		C4C2050B1261215700765D4A /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A07A6125EBED5008A004E /* ASIAuthenticationDialog.m */; };
-		C4C2050C1261215700765D4A /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A07A9125EBED5008A004E /* ASIDownloadCache.m */; };
-		C4C2050D1261215700765D4A /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A07AB125EBED5008A004E /* ASIFormDataRequest.m */; };
-		C4C2050E1261215700765D4A /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A07AD125EBED5008A004E /* ASIHTTPRequest.m */; };
-		C4C2050F1261215700765D4A /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A07B1125EBED5008A004E /* ASIInputStream.m */; };
-		C4C205101261215700765D4A /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A07B3125EBED5008A004E /* ASINetworkQueue.m */; };
 		C4C205121261215700765D4A /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C2043212610C9200765D4A /* NSDate+Additions.m */; };
-		C4C205131261215700765D4A /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A0763125EBE1D008A004E /* NSObject+SBJSON.m */; };
-		C4C205141261215700765D4A /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A0765125EBE1D008A004E /* NSString+SBJSON.m */; };
-		C4C205151261215700765D4A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A07B7125EBED5008A004E /* Reachability.m */; };
-		C4C205161261215700765D4A /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A0767125EBE1D008A004E /* SBJsonBase.m */; };
-		C4C205171261215700765D4A /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A0769125EBE1D008A004E /* SBJsonParser.m */; };
-		C4C205181261215700765D4A /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A076B125EBE1D008A004E /* SBJsonWriter.m */; };
 		C4C205191261215700765D4A /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A0653125EB7FE008A004E /* Tweet.m */; };
 		C4C2051A1261215700765D4A /* TweetListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C420A3AA126020870069F1D7 /* TweetListViewController.m */; };
 		C4C2051B1261215700765D4A /* TwitterService.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A07C0125EBEFF008A004E /* TwitterService.m */; };
@@ -76,18 +51,22 @@
 		C4C205231261219A00765D4A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42A0805125EC210008A004E /* CFNetwork.framework */; };
 		C4C205241261219A00765D4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		C4C205251261219A00765D4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		C4C205271261219A00765D4A /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C42A080B125EC210008A004E /* libz.1.2.3.dylib */; };
 		C4C205281261219A00765D4A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42A0807125EC210008A004E /* MobileCoreServices.framework */; };
 		C4C2052A1261219A00765D4A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42A0809125EC210008A004E /* SystemConfiguration.framework */; };
 		C4C2052B1261219A00765D4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		C4D23E9E1266CBAE00E6EFB6 /* TwitterServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D23E9D1266CBAE00E6EFB6 /* TwitterServiceTest.m */; };
 		C4D23EB21266CD8A00E6EFB6 /* twitter_response.json in Resources */ = {isa = PBXBuildFile; fileRef = C4D23EB11266CD8A00E6EFB6 /* twitter_response.json */; };
 		C4DCC0C21267CE0E0047C33E /* NSDate+AdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DCC0C11267CE0E0047C33E /* NSDate+AdditionsTest.m */; };
-		C4DD4D7B126017EB00321690 /* UnitTestDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D1107310486CEB800E47090 /* UnitTestDemo-Info.plist */; };
 		C4E8192D126ECCD400140E92 /* TweetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8192C126ECCD400140E92 /* TweetTest.m */; };
 		C4F0E947126126BD002B6890 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F0E946126126BD002B6890 /* GHUnitIOS.framework */; };
 		C4F17905126560B100C1A032 /* TweetListViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F17904126560B100C1A032 /* TweetListViewControllerTest.m */; };
 		C4F17AD11265780000C1A032 /* StubTwitterService.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F17AD01265780000C1A032 /* StubTwitterService.m */; };
+		C4F3B1D11506CB840052535E /* ASIHTTPRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F3B1D01506CB840052535E /* ASIHTTPRequest.framework */; };
+		C4F3B1D21506CB840052535E /* ASIHTTPRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F3B1D01506CB840052535E /* ASIHTTPRequest.framework */; };
+		C4F3B1D41506CBAA0052535E /* SBJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F3B1D31506CBAA0052535E /* SBJson.framework */; };
+		C4F3B1D51506CBAA0052535E /* SBJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F3B1D31506CBAA0052535E /* SBJson.framework */; };
+		C4F3B1D71506CBBA0052535E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F3B1D61506CBBA0052535E /* libz.dylib */; };
+		C4F3B1DF1506CC4F0052535E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F3B1D61506CBBA0052535E /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,41 +95,11 @@
 		C42A0650125EB7F8008A004E /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		C42A0652125EB7FE008A004E /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
 		C42A0653125EB7FE008A004E /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
-		C42A0761125EBE1D008A004E /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
-		C42A0762125EBE1D008A004E /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
-		C42A0763125EBE1D008A004E /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
-		C42A0764125EBE1D008A004E /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
-		C42A0765125EBE1D008A004E /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
-		C42A0766125EBE1D008A004E /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
-		C42A0767125EBE1D008A004E /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
-		C42A0768125EBE1D008A004E /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
-		C42A0769125EBE1D008A004E /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
-		C42A076A125EBE1D008A004E /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
-		C42A076B125EBE1D008A004E /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		C42A07A5125EBED5008A004E /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
-		C42A07A6125EBED5008A004E /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
-		C42A07A7125EBED5008A004E /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
-		C42A07A8125EBED5008A004E /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
-		C42A07A9125EBED5008A004E /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
-		C42A07AA125EBED5008A004E /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
-		C42A07AB125EBED5008A004E /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
-		C42A07AC125EBED5008A004E /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
-		C42A07AD125EBED5008A004E /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
-		C42A07AE125EBED5008A004E /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
-		C42A07AF125EBED5008A004E /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
-		C42A07B0125EBED5008A004E /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
-		C42A07B1125EBED5008A004E /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
-		C42A07B2125EBED5008A004E /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
-		C42A07B3125EBED5008A004E /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
-		C42A07B4125EBED5008A004E /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
-		C42A07B6125EBED5008A004E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		C42A07B7125EBED5008A004E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		C42A07BF125EBEFF008A004E /* TwitterService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterService.h; sourceTree = "<group>"; };
 		C42A07C0125EBEFF008A004E /* TwitterService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterService.m; sourceTree = "<group>"; };
 		C42A0805125EC210008A004E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		C42A0807125EC210008A004E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		C42A0809125EC210008A004E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		C42A080B125EC210008A004E /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
 		C45A37A912601A9C00E584C2 /* Users.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Users.plist; sourceTree = "<group>"; };
 		C49D5302126129AF00851379 /* UnitTests_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitTests_Prefix.pch; sourceTree = "<group>"; };
 		C4C1BB79126EC75C0056C655 /* UserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTest.m; sourceTree = "<group>"; };
@@ -168,6 +117,9 @@
 		C4F17904126560B100C1A032 /* TweetListViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetListViewControllerTest.m; sourceTree = "<group>"; };
 		C4F17ACF1265780000C1A032 /* StubTwitterService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StubTwitterService.h; sourceTree = "<group>"; };
 		C4F17AD01265780000C1A032 /* StubTwitterService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StubTwitterService.m; sourceTree = "<group>"; };
+		C4F3B1D01506CB840052535E /* ASIHTTPRequest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ASIHTTPRequest.framework; sourceTree = "<group>"; };
+		C4F3B1D31506CBAA0052535E /* SBJson.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SBJson.framework; sourceTree = "<group>"; };
+		C4F3B1D61506CBBA0052535E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,13 +127,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F3B1D71506CBBA0052535E /* libz.dylib in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
 				C42A0806125EC210008A004E /* CFNetwork.framework in Frameworks */,
 				C42A0808125EC210008A004E /* MobileCoreServices.framework in Frameworks */,
 				C42A080A125EC210008A004E /* SystemConfiguration.framework in Frameworks */,
-				C42A080C125EC210008A004E /* libz.1.2.3.dylib in Frameworks */,
+				C4F3B1D11506CB840052535E /* ASIHTTPRequest.framework in Frameworks */,
+				C4F3B1D41506CBAA0052535E /* SBJson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,15 +143,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F3B1DF1506CC4F0052535E /* libz.dylib in Frameworks */,
 				C4C205231261219A00765D4A /* CFNetwork.framework in Frameworks */,
 				C4C205241261219A00765D4A /* CoreGraphics.framework in Frameworks */,
 				C4C205251261219A00765D4A /* Foundation.framework in Frameworks */,
-				C4C205271261219A00765D4A /* libz.1.2.3.dylib in Frameworks */,
 				C4C205281261219A00765D4A /* MobileCoreServices.framework in Frameworks */,
 				C4C2052A1261219A00765D4A /* SystemConfiguration.framework in Frameworks */,
 				C4C2052B1261219A00765D4A /* UIKit.framework in Frameworks */,
 				C4F0E947126126BD002B6890 /* GHUnitIOS.framework in Frameworks */,
 				C49D531F12612A4600851379 /* OCMock.framework in Frameworks */,
+				C4F3B1D21506CB840052535E /* ASIHTTPRequest.framework in Frameworks */,
+				C4F3B1D51506CBAA0052535E /* SBJson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +188,6 @@
 				080E96DDFE201D6D7F000001 /* Classes */,
 				C42A0636125EB6F6008A004E /* UnitTests */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
-				C42A075F125EBE1D008A004E /* External */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
@@ -268,12 +223,14 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C4F3B1D61506CBBA0052535E /* libz.dylib */,
+				C4F3B1D31506CBAA0052535E /* SBJson.framework */,
+				C4F3B1D01506CB840052535E /* ASIHTTPRequest.framework */,
 				C4F0E946126126BD002B6890 /* GHUnitIOS.framework */,
 				C4C206551261226700765D4A /* OCMock.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
 				C42A0805125EC210008A004E /* CFNetwork.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
-				C42A080B125EC210008A004E /* libz.1.2.3.dylib */,
 				C42A0807125EC210008A004E /* MobileCoreServices.framework */,
 				C42A0809125EC210008A004E /* SystemConfiguration.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
@@ -333,66 +290,6 @@
 				C42A07C0125EBEFF008A004E /* TwitterService.m */,
 			);
 			path = Services;
-			sourceTree = "<group>";
-		};
-		C42A075F125EBE1D008A004E /* External */ = {
-			isa = PBXGroup;
-			children = (
-				C42A07A4125EBED5008A004E /* ASIHTTPRequest */,
-				C42A07B5125EBED5008A004E /* Reachability */,
-				C42A0760125EBE1D008A004E /* SBJSON */,
-			);
-			path = External;
-			sourceTree = "<group>";
-		};
-		C42A0760125EBE1D008A004E /* SBJSON */ = {
-			isa = PBXGroup;
-			children = (
-				C42A0761125EBE1D008A004E /* JSON.h */,
-				C42A0762125EBE1D008A004E /* NSObject+SBJSON.h */,
-				C42A0763125EBE1D008A004E /* NSObject+SBJSON.m */,
-				C42A0764125EBE1D008A004E /* NSString+SBJSON.h */,
-				C42A0765125EBE1D008A004E /* NSString+SBJSON.m */,
-				C42A0766125EBE1D008A004E /* SBJsonBase.h */,
-				C42A0767125EBE1D008A004E /* SBJsonBase.m */,
-				C42A0768125EBE1D008A004E /* SBJsonParser.h */,
-				C42A0769125EBE1D008A004E /* SBJsonParser.m */,
-				C42A076A125EBE1D008A004E /* SBJsonWriter.h */,
-				C42A076B125EBE1D008A004E /* SBJsonWriter.m */,
-			);
-			path = SBJSON;
-			sourceTree = "<group>";
-		};
-		C42A07A4125EBED5008A004E /* ASIHTTPRequest */ = {
-			isa = PBXGroup;
-			children = (
-				C42A07A5125EBED5008A004E /* ASIAuthenticationDialog.h */,
-				C42A07A6125EBED5008A004E /* ASIAuthenticationDialog.m */,
-				C42A07A7125EBED5008A004E /* ASICacheDelegate.h */,
-				C42A07A8125EBED5008A004E /* ASIDownloadCache.h */,
-				C42A07A9125EBED5008A004E /* ASIDownloadCache.m */,
-				C42A07AA125EBED5008A004E /* ASIFormDataRequest.h */,
-				C42A07AB125EBED5008A004E /* ASIFormDataRequest.m */,
-				C42A07AC125EBED5008A004E /* ASIHTTPRequest.h */,
-				C42A07AD125EBED5008A004E /* ASIHTTPRequest.m */,
-				C42A07AE125EBED5008A004E /* ASIHTTPRequestConfig.h */,
-				C42A07AF125EBED5008A004E /* ASIHTTPRequestDelegate.h */,
-				C42A07B0125EBED5008A004E /* ASIInputStream.h */,
-				C42A07B1125EBED5008A004E /* ASIInputStream.m */,
-				C42A07B2125EBED5008A004E /* ASINetworkQueue.h */,
-				C42A07B3125EBED5008A004E /* ASINetworkQueue.m */,
-				C42A07B4125EBED5008A004E /* ASIProgressDelegate.h */,
-			);
-			path = ASIHTTPRequest;
-			sourceTree = "<group>";
-		};
-		C42A07B5125EBED5008A004E /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				C42A07B6125EBED5008A004E /* Reachability.h */,
-				C42A07B7125EBED5008A004E /* Reachability.m */,
-			);
-			path = Reachability;
 			sourceTree = "<group>";
 		};
 		C49D52FC126128A100851379 /* Categories */ = {
@@ -491,7 +388,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0410;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UnitTestDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -519,7 +416,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4DD4D7B126017EB00321690 /* UnitTestDemo-Info.plist in Resources */,
 				C45A37AA12601A9C00E584C2 /* Users.plist in Resources */,
 				C40CA31912613C8200732515 /* UserListView.xib in Resources */,
 				C40CA31A12613C8200732515 /* MainWindow.xib in Resources */,
@@ -559,18 +455,6 @@
 				C42A064E125EB7E4008A004E /* UserListViewController.m in Sources */,
 				C42A0651125EB7F8008A004E /* User.m in Sources */,
 				C42A0654125EB7FE008A004E /* Tweet.m in Sources */,
-				C42A076C125EBE1D008A004E /* NSObject+SBJSON.m in Sources */,
-				C42A076D125EBE1D008A004E /* NSString+SBJSON.m in Sources */,
-				C42A076E125EBE1D008A004E /* SBJsonBase.m in Sources */,
-				C42A076F125EBE1D008A004E /* SBJsonParser.m in Sources */,
-				C42A0770125EBE1D008A004E /* SBJsonWriter.m in Sources */,
-				C42A07B8125EBED5008A004E /* ASIAuthenticationDialog.m in Sources */,
-				C42A07B9125EBED5008A004E /* ASIDownloadCache.m in Sources */,
-				C42A07BA125EBED5008A004E /* ASIFormDataRequest.m in Sources */,
-				C42A07BB125EBED5008A004E /* ASIHTTPRequest.m in Sources */,
-				C42A07BC125EBED5008A004E /* ASIInputStream.m in Sources */,
-				C42A07BD125EBED5008A004E /* ASINetworkQueue.m in Sources */,
-				C42A07BE125EBED5008A004E /* Reachability.m in Sources */,
 				C42A07C1125EBEFF008A004E /* TwitterService.m in Sources */,
 				C420A3AB126020870069F1D7 /* TweetListViewController.m in Sources */,
 				C4C2043312610C9200765D4A /* NSDate+Additions.m in Sources */,
@@ -581,19 +465,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4C2050B1261215700765D4A /* ASIAuthenticationDialog.m in Sources */,
-				C4C2050C1261215700765D4A /* ASIDownloadCache.m in Sources */,
-				C4C2050D1261215700765D4A /* ASIFormDataRequest.m in Sources */,
-				C4C2050E1261215700765D4A /* ASIHTTPRequest.m in Sources */,
-				C4C2050F1261215700765D4A /* ASIInputStream.m in Sources */,
-				C4C205101261215700765D4A /* ASINetworkQueue.m in Sources */,
 				C4C205121261215700765D4A /* NSDate+Additions.m in Sources */,
-				C4C205131261215700765D4A /* NSObject+SBJSON.m in Sources */,
-				C4C205141261215700765D4A /* NSString+SBJSON.m in Sources */,
-				C4C205151261215700765D4A /* Reachability.m in Sources */,
-				C4C205161261215700765D4A /* SBJsonBase.m in Sources */,
-				C4C205171261215700765D4A /* SBJsonParser.m in Sources */,
-				C4C205181261215700765D4A /* SBJsonWriter.m in Sources */,
 				C4C205191261215700765D4A /* Tweet.m in Sources */,
 				C4C2051A1261215700765D4A /* TweetListViewController.m in Sources */,
 				C4C2051B1261215700765D4A /* TwitterService.m in Sources */,
@@ -627,8 +499,13 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = UnitTestDemo_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "UnitTestDemo-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = UnitTestDemo;
 				SDKROOT = iphoneos;
 			};
@@ -645,8 +522,13 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = UnitTestDemo_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "UnitTestDemo-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = UnitTestDemo;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -695,7 +577,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = UnitTests_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "UnitTests-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
@@ -725,7 +607,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = UnitTests_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "UnitTests-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (

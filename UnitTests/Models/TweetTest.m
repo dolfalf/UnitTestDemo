@@ -8,7 +8,7 @@
 //  Code is released under the DFUMS license.
 //
 
-#import "Tweet.h";
+#import "Tweet.h"
 
 @interface TweetTest : GHTestCase {}
 @end

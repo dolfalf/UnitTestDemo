@@ -9,8 +9,8 @@
 //
 
 #import "TwitterService.h"
-#import "ASIHTTPRequest.h"
-#import "JSON.h"
+#import <ASIHTTPRequest/ASIHTTPRequest.h>
+#import <SBJson/SBJson.h>
 #import "Tweet.h"
 
 #define BLOCK_KEY @"block"

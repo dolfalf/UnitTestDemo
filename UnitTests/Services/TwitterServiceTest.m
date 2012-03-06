@@ -9,7 +9,7 @@
 //
 
 #import "TwitterService.h"
-#import "ASIHTTPRequest.h"
+#import <ASIHTTPRequest/ASIHTTPRequest.h>
 
 @interface TwitterServiceTest : GHTestCase {
 	TwitterService *service;
