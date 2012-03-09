@@ -36,6 +36,7 @@
 	return [[self alloc] init];
 }
 
+// TODO - Lose the ASI dependency
 - (void)loadLatestTweetsForUser:(User *)user withBlock:(TweetBlock)block {
 
 	NSURL *twitterURL = [NSURL URLWithString:[NSString stringWithFormat:TIMELINE_URL_FORMAT, user.username]];

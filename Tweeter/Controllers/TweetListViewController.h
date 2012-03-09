@@ -24,12 +24,9 @@
 //
 
 @class User;
-@class TwitterService;
 
 @interface TweetListViewController : UITableViewController
 
 @property (nonatomic, strong) User *user;
-@property (nonatomic, copy) NSArray *tweets;
-@property (nonatomic, strong) TwitterService *twitterService;
 
 @end

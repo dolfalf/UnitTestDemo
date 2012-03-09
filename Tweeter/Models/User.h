@@ -23,11 +23,7 @@
 //  THE SOFTWARE.
 //
 
-@interface User : NSObject <NSCoding> {
-@private
-	NSString *username;
-	NSString *fullname;
-}
+@interface User : NSObject <NSCoding>
 
 @property (nonatomic, copy, readonly) NSString *username;
 @property (nonatomic, copy, readonly) NSString *fullname;

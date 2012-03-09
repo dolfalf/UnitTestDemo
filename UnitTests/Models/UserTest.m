@@ -25,7 +25,7 @@
 
 #import "User.h"
 
-@interface UserTest : GHTestCase {}
+@interface UserTest : GHTestCase
 @end
 
 @implementation UserTest

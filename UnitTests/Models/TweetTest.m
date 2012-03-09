@@ -25,7 +25,7 @@
 
 #import "Tweet.h"
 
-@interface TweetTest : GHTestCase {}
+@interface TweetTest : GHTestCase
 @end
 
 @implementation TweetTest

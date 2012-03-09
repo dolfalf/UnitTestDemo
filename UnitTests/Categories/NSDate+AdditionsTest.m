@@ -25,7 +25,7 @@
 
 #import "NSDate+Additions.h"
 
-@interface NSDateAdditionsTest : GHTestCase {}
+@interface NSDateAdditionsTest : GHTestCase
 @end
 
 @implementation NSDateAdditionsTest

@@ -37,17 +37,17 @@
 
 @implementation User
 
-@synthesize username;
-@synthesize fullname;
+@synthesize username = _username;
+@synthesize fullname = _fullname;
 
 + (id)userWithUsername:(NSString *)username fullname:(NSString *)fullname {
 	return [[self alloc] initWithUsername:username fullname:fullname];
 }
 
-- (id)initWithUsername:(NSString *)aUsername fullname:(NSString *)aFullname {
+- (id)initWithUsername:(NSString *)username fullname:(NSString *)fullname {
 	if (self = [super init]) {
-		self.username = aUsername;
-		self.fullname = aFullname;
+		self.username = username;
+		self.fullname = fullname;
 	}
 	return self;
 }

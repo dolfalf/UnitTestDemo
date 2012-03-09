@@ -28,20 +28,20 @@
 
 @implementation Tweet
 
-@synthesize text, date;
+@synthesize text = _text;
+@synthesize date = _date;
 
 + (id)tweetWithText:(NSString *)text date:(NSDate *)date {
 	return [[self alloc] initWithText:text date:date];
 }
 
-- (id)initWithText:(NSString *)aText date:(NSDate *)aDate {
+- (id)initWithText:(NSString *)text date:(NSDate *)date {
 	if (self = [super init]) {
-		self.text = aText;
-		self.date = aDate;
+		self.text = text;
+		self.date = date;
 	}
 	return self;
 }
-
 
 - (void)setValue:(id)value forKey:(NSString *)key {
 	if ([key isEqualToString:@"created_at"]) {
@@ -51,6 +51,5 @@
 		self.text = value;
 	}
 }
-
 
 @end

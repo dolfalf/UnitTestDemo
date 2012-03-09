@@ -31,6 +31,11 @@
 #import "StubTwitterService.h"
 #import "NSDate+Additions.h"
 
+@interface TweetListViewController ()
+@property (nonatomic, copy) NSArray *tweets;
+@property (nonatomic, strong) TwitterService *twitterService;
+@end
+
 @interface TweetListViewControllerTest : GHTestCase {
 	User *user;
 	TweetListViewController *controller;
@@ -62,11 +67,9 @@
 	return YES;
 }
 
-#pragma mark -
-#pragma mark Tests
+#pragma mark - Tests
 
-#pragma mark -
-#pragma mark EXAMPLE: Simple OCMock usage, but the test is a bit superficial
+#pragma mark - EXAMPLE: Simple OCMock usage, but the test is a bit superficial
 
 - (void)testViewWillAppear_withMockService {
 	
@@ -81,8 +84,7 @@
 	[mockService verify];
 }
 
-#pragma mark -
-#pragma mark EXAMPLE: Using a "Stub" implementation of TwitterService
+#pragma mark - EXAMPLE: Using a "Stub" implementation of TwitterService
 
 - (void)testViewWillAppear_withStubService {
 	NSArray *tweets = [NSArray array];
@@ -96,8 +98,7 @@
 	GHAssertEquals(controller.tweets, tweets, nil);
 }
 
-#pragma mark -
-#pragma mark EXAMPLE: Mocking the block argument
+#pragma mark - EXAMPLE: Mocking the block argument
 
 - (void)testViewWillAppear_withInvocationBlock {
 	
@@ -126,8 +127,7 @@
 	[mockTableView verify];
 }
 
-#pragma mark -
-#pragma mark Test tableView:cellForRowAtIndexPath
+#pragma mark - Test tableView:cellForRowAtIndexPath
 
 - (UITableViewCell *)invokeCodeForCell:(UITableViewCell *)expectedCell {
 	id mockTableView = [OCMockObject mockForClass:[UITableView class]];
@@ -152,8 +152,7 @@
 	[self invokeAssertsForResultCell:resultCell];
 }
 
-#pragma mark -
-#pragma mark Tests for tableView:heightForRowAtIndexPath: method
+#pragma mark - Tests for tableView:heightForRowAtIndexPath: method
 
 - (void)assertTableViewHeightForRowAtIndexPath:(NSIndexPath *)indexPath expected:(CGFloat)expected {
 	CGFloat result = [controller tableView:nil heightForRowAtIndexPath:indexPath];

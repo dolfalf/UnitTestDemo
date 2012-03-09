@@ -24,17 +24,22 @@
 //
 
 #import "TweetListViewController.h"
-#import "TwitterService.h"
-#import "User.h"
-#import "Tweet.h"
 #import "NSDate+Additions.h"
+#import "TwitterService.h"
+#import "Tweet.h"
+#import "User.h"
 
 #define TEXT_FONT_SIZE 14.0f
 #define DATE_FONT_SIZE 12.0f
-#define CELL_CONTENT_WIDTH 300.0f
-#define CELL_CONTENT_MARGIN 10.0f
 #define MIN_ROW_HEIGHT 22.0f
 #define MAX_CELL_WIDTH 320.f
+#define CELL_CONTENT_WIDTH 300.0f
+#define CELL_CONTENT_MARGIN 10.0f
+
+@interface TweetListViewController ()
+@property (nonatomic, copy) NSArray *tweets;
+@property (nonatomic, strong) TwitterService *twitterService;
+@end
 
 @implementation TweetListViewController
 
@@ -78,8 +83,6 @@
 	CGFloat height = MAX(size.height, MIN_ROW_HEIGHT);
 	return height + (CELL_CONTENT_MARGIN * 2);
 }
-
-
 
 @end
 

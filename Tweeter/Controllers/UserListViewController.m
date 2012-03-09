@@ -27,26 +27,21 @@
 #import "TweetListViewController.h"
 #import "User.h"
 
-#define ROW_HEIGHT 52
-
 @implementation UserListViewController
 
 @synthesize users = _users;
 
-#pragma mark -
+#pragma mark - View Lifecycle
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
 	self.title = @"Cocoa Developers";
-
 	UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:nil action:nil];
 	self.navigationItem.backBarButtonItem = backButton;
 }
 
 
-#pragma mark -
-#pragma mark UITableViewDataSource methods
+#pragma mark - UITableViewDataSource methods
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [self.users count];
@@ -62,22 +57,13 @@
     return cell;
 }
 
-
-#pragma mark -
-#pragma mark UITableViewDelegate methods
-
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-	return ROW_HEIGHT;
-}
-
+// Segue to Tweet List
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
 	id tweetListViewController = [segue destinationViewController];
 	NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
 	User *user = [self.users objectAtIndex:indexPath.row];
 	[tweetListViewController setUser:user];
 }
-
-
 
 @end
 

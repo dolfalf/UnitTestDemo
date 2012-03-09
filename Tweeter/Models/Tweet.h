@@ -23,10 +23,7 @@
 //  THE SOFTWARE.
 //
 
-@interface Tweet : NSObject {
-	NSString *text;
-	NSDate *date;
-}
+@interface Tweet : NSObject
 
 @property (nonatomic, copy) NSString *text;
 @property (nonatomic, strong) NSDate *date;

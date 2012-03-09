@@ -25,8 +25,9 @@
 
 #import "StubTwitterService.h"
 
-
-@implementation StubTwitterService 
+@implementation StubTwitterService {
+	NSArray *tweets;
+}
 
 - (id)initWithTweets:(NSArray *)theTweets {
 	if (self = [super init]) {

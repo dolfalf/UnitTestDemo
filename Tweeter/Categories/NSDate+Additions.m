@@ -60,8 +60,7 @@
 	[formatter setFormatterBehavior:NSDateFormatterBehavior10_4];
 	[formatter setDateFormat:TWITTER_DATE_FORMAT];
 	
-	NSDate *twitterDate = [formatter dateFromString:dateString];
-	return twitterDate;
+	return [formatter dateFromString:dateString];
 }
 
 @end

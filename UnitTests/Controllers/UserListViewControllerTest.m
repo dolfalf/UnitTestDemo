@@ -82,11 +82,6 @@
 	GHAssertEqualStrings(cell.textLabel.text, @"Aaron Hillegass", nil);
 }
 
-- (void)testTableViewHeightForRowAtIndexPath {
-	CGFloat expectedHeight = 52;
-	GHAssertEquals([controller tableView:nil heightForRowAtIndexPath:nil], expectedHeight, nil);
-}
-
 - (UINavigationController *)mockNavigationController {
 	static id mockController = nil;
 	if (!mockController) {

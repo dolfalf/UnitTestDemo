@@ -23,14 +23,11 @@
 //  THE SOFTWARE.
 //
 
-#import <Foundation/Foundation.h>
 #import "User.h"
 
 typedef void (^TweetBlock) (NSArray *);
 
-@interface TwitterService : NSObject {
-
-}
+@interface TwitterService : NSObject
 
 + (id)service;
 - (void)loadLatestTweetsForUser:(User *)user withBlock:(TweetBlock)block;

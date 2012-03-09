@@ -25,9 +25,7 @@
 
 #import "TwitterService.h"
 
-@interface StubTwitterService : TwitterService {
-	NSArray *tweets;
-}
+@interface StubTwitterService : TwitterService
 
 - (id)initWithTweets:(NSArray *)theTweets;
 
